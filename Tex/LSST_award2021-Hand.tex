@@ -1,0 +1,48 @@
+\documentclass[modern]{aastex63}
+\usepackage[utf8]{inputenc} 
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{fancyhdr}   
+\usepackage{geometry}
+\usepackage{amsmath}
+\renewcommand{\baselinestretch}{1.5}
+\usepackage{amssymb}
+%\renewcommand{rnaas}{True}
+
+\geometry{lmargin=1in, bmargin=1in, tmargin=0.8in, rmargin=1in}
+
+\pagestyle{plain}
+
+\begin{document}
+\title{Maximizing Type Ia Supernova Utility with Novel Modeling}
+
+\author{Jared Hand}
+\affiliation{Department of Physics and Astronomy, University of Pittsburgh \vspace{-0.5in}}
+
+\section{Introduction}
+The Vera C. Rubin Observatory will dramatically increase the number of photometrically observed transient objects over the next decade. 
+Classifying these objects accurately and efficiently is crucial to maximally utilize data products from the Legacy Survey of Space and Time (LSST). 
+Of particular interest are type Ia supernovae (SNe~Ia), extremely bright standardizable candles that can be used to measure cosmic distances past $z=1$ to constrain cosmological parameters that dictate the dynamics of our universe \citep{Perlmutter1999}.  
+Such standardizability comes from SNe Ia's remarkably similar maximum brightness that also is strongly correlated with the blueness or redness (color) and the duration of the explosion (stretch); accounting for these correlations reduces the the observed variation in intrinsic brightness. 
+Naturally, any improvement to this standardization procedure will increase the impact of SN Ia cosmology and any related survey.
+Using a more powerful statistical model, there are two outstanding issues with SN Ia cosmology we wish to address: 1) improving modeling SN Ia color variation to disentangle dust effects from intrinisic SN~Ia color variation, and 2) simultaneously modeling SN subtypes during fitting to better detect SN Ia false positives from erroneously detected core collapse supernovae (CC SNe) and peculiar SN Ia subtypes without the use of spectra.
+
+\section{Proposed Project}
+This project will continue development of a model than me and Dr. Alex Kim of the Lawrence Berkeley National Lab have developed as part of a DOE Office of Science SCGSR Award. 
+This new hierarchical Bayesian model agnostically disentangles the color variation in SN~Ia populations due to dust effects from color varation arising from intrinsic differences in SN~Ia population itself.  
+Using the statistics coding suit Stan \citep{STAN}, a set of Gaussian process are fit to a set of phase nodes, which each Gaussian process tracing the time evolution of a specific wavelength node.
+This forms a mean template surface $\textbf{f}_0$ that traces the mean time and wavelength evolution of the SN~Ia sample that is scaled by a grey offset term $\exp(\chi_{\text{sn}})$.
+Each Gaussian process is adjusted per-SN~Ia via a set of time-independent multiplicative color law vectors $\vec{L}_i$, with each the vectors $\vec{L}_i$'s contribution being determined by latent color parameters $c_{i,\text{sn}}$ fit for each SN~Ia. 
+Time and wavelength variation can accounted for by a warping matrix $\textbf{M}_i$ that adjusts the phase nodes and wavelength nodes simultaneously for each SN~Ia via some latent parameter $s_{i,\text{sn}}$.
+For example, a two color law model that accounts for stretch variation in SNe~Ia would be $\log[\textbf{f}_{\text{sn}}(\chi_{\text{sn}}, s_{1,\text{sn}}, c_{1,\text{sn}}, c_{2,\text{sn}})] = \log(\textbf{f}_0) + \chi_{\text{sn}} + s_{1,\text{sn}}\textbf{M}_1 + c_{1,\text{sn}}\vec{L}_1 + c_{2,\text{sn}}\vec{L}_2$
+
+Our first model improvement will focus on improving the robustness of a two color law model (namely, $c_1\vec{L}_1 + c_2\vec{L}_2$) to include heavily reddened supernovae in our training sample. 
+The second improvement will be adding a Gaussian mixture model, with each component of the mixture model being a family of a multiplicative color laws and warping matrices. 
+The massive statistics increase that LSST will yield will allow not only for stronger constraints on the color laws of SNe~Ia used in cosmology, but to simultaneously fit for CC~SNe and peculiar SNe~Ia as well.
+\section{Impact}
+
+
+\bibliographystyle{aasjournal}
+\bibliography{main}
+
+\end{document}
