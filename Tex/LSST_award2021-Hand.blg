@@ -4,44 +4,44 @@ The top-level auxiliary file: LSST_award2021-Hand.aux
 The style file: aasjournal.bst
 Database file #1: main.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 2 entries,
+You've used 9 entries,
             3168 wiz_defined-function locations,
-            671 strings with 5782 characters,
-and the built_in function-call counts, 1309 in all, are:
-= -- 69
-> -- 163
-< -- 0
-+ -- 53
-- -- 57
-* -- 148
-:= -- 269
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 8
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 34
-empty$ -- 53
-format.name$ -- 59
-if$ -- 238
+            729 strings with 8068 characters,
+and the built_in function-call counts, 5058 in all, are:
+= -- 365
+> -- 488
+< -- 2
++ -- 162
+- -- 176
+* -- 506
+:= -- 960
+add.period$ -- 10
+call.type$ -- 9
+change.case$ -- 51
+chr.to.int$ -- 9
+cite$ -- 9
+duplicate$ -- 153
+empty$ -- 256
+format.name$ -- 186
+if$ -- 989
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 14
-num.names$ -- 8
-pop$ -- 10
+missing$ -- 9
+newline$ -- 36
+num.names$ -- 36
+pop$ -- 53
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 51
 quote$ -- 0
-skip$ -- 25
+skip$ -- 137
 stack$ -- 0
-substring$ -- 28
+substring$ -- 183
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
+type$ -- 81
 warning$ -- 0
-while$ -- 6
+while$ -- 33
 width$ -- 0
-write$ -- 29
+write$ -- 106

@@ -5,10 +5,28 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
-\bibitem[{Carpenter {et~al.}(2017)Carpenter, Gelman, Hoffman, Lee, Goodrich,
-  Betancourt, Brubaker, Guo, Li, \& Riddell}]{STAN}
-Carpenter, B., Gelman, A., Hoffman, M.~D., {et~al.} 2017, Journal of
-  Statistical Software, Articles, 76, 1, \dodoi{10.18637/jss.v076.i01}
+\bibitem[{{Brout} \& {Scolnic}(2021)}]{Brout2021}
+{Brout}, D., \& {Scolnic}, D. 2021, \apj, 909, 26,
+  \dodoi{10.3847/1538-4357/abd69b}
+
+\bibitem[{{Galbany} {et~al.}(2018){Galbany}, {Anderson}, {S{\'a}nchez},
+  {Kuncarayakti}, {Pedraz}, {Gonz{\'a}lez-Gait{\'a}n}, {Stanishev},
+  {Dom{\'\i}nguez}, {Moreno-Raya}, {Wood-Vasey}, {Mour{\~a}o}, {Ponder},
+  {Badenes}, {Moll{\'a}}, {L{\'o}pez-S{\'a}nchez}, {Rosales-Ortega},
+  {V{\'\i}lchez}, {Garc{\'\i}a-Benito}, \& {Marino}}]{Galbany2018}
+{Galbany}, L., {Anderson}, J.~P., {S{\'a}nchez}, S.~F., {et~al.} 2018, \apj,
+  855, 107, \dodoi{10.3847/1538-4357/aaaf20}
+
+\bibitem[{{Hand} {et~al.}(2021){Hand}, {Liu}, {Galbany}, {Perrefort},
+  {Wood-Vasey}, \& {Burns}}]{Hand2021}
+{Hand}, J., {Liu}, S., {Galbany}, L., {et~al.} 2021, arXiv e-prints,
+  arXiv:2102.08980.
+\newblock \doarXiv{2102.08980}
+
+\bibitem[{{Narayanan} {et~al.}(2018){Narayanan}, {Conroy}, {Dav{\'e}},
+  {Johnson}, \& {Popping}}]{Narayanan2018}
+{Narayanan}, D., {Conroy}, C., {Dav{\'e}}, R., {Johnson}, B.~D., \& {Popping},
+  G. 2018, \apj, 869, 70, \dodoi{10.3847/1538-4357/aaed25}
 
 \bibitem[{{Perlmutter} {et~al.}(1999){Perlmutter}, {Aldering}, {Goldhaber},
   {Knop}, {Nugent}, {Castro}, {Deustua}, {Fabbro}, {Goobar}, {Groom}, {Hook},
@@ -18,5 +36,26 @@ Carpenter, B., Gelman, A., Hoffman, M.~D., {et~al.} 2017, Journal of
   {Project}}]{Perlmutter1999}
 {Perlmutter}, S., {Aldering}, G., {Goldhaber}, G., {et~al.} 1999, \apj, 517,
   565, \dodoi{10.1086/307221}
+
+\bibitem[{Rigault {et~al.}(2020)}]{Rigault2018}
+Rigault, M., {et~al.} 2020, Astron. Astrophys., 644, A176,
+  \dodoi{10.1051/0004-6361/201730404}
+
+\bibitem[{{Rose} {et~al.}(2021){Rose}, {Rubin}, {Strolger}, \&
+  {Garnavich}}]{Rose2021}
+{Rose}, B.~M., {Rubin}, D., {Strolger}, L., \& {Garnavich}, P.~M. 2021, \apj,
+  909, 28, \dodoi{10.3847/1538-4357/abd550}
+
+\bibitem[{{Salim} {et~al.}(2018){Salim}, {Boquien}, \& {Lee}}]{Salim2018}
+{Salim}, S., {Boquien}, M., \& {Lee}, J.~C. 2018, \apj, 859, 11,
+  \dodoi{10.3847/1538-4357/aabf3c}
+
+\bibitem[{{Sullivan} {et~al.}(2010){Sullivan}, {Conley}, {Howell}, {Neill},
+  {Astier}, {Balland}, {Basa}, {Carlberg}, {Fouchez}, {Guy}, {Hardin}, {Hook},
+  {Pain}, {Palanque-Delabrouille}, {Perrett}, {Pritchet}, {Regnault}, {Rich},
+  {Ruhlmann-Kleider}, {Baumont}, {Hsiao}, {Kronborg}, {Lidman}, {Perlmutter},
+  \& {Walker}}]{Sullivan2010}
+{Sullivan}, M., {Conley}, A., {Howell}, D.~A., {et~al.} 2010, \mnras, 406, 782,
+  \dodoi{10.1111/j.1365-2966.2010.16731.x}
 
 \end{thebibliography}

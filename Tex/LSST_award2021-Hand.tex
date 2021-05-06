@@ -19,26 +19,28 @@
 \author{Jared Hand}
 \affiliation{Department of Physics and Astronomy, University of Pittsburgh \vspace{-0.5in}}
 
-\section{Introduction}
+\section{Introduction and Proposal}
 The Vera C. Rubin Observatory will dramatically increase the number of photometrically observed transient objects over the next decade. 
-Classifying these objects accurately and efficiently is crucial to maximally utilize data products from the Legacy Survey of Space and Time (LSST). 
-Of particular interest are type Ia supernovae (SNe~Ia), extremely bright standardizable candles that can be used to measure cosmic distances past $z=1$ to constrain cosmological parameters that dictate the dynamics of our universe \citep{Perlmutter1999}.  
-Such standardizability comes from SNe Ia's remarkably similar maximum brightness that also is strongly correlated with the blueness or redness (color) and the duration of the explosion (stretch); accounting for these correlations reduces the the observed variation in intrinsic brightness. 
-Naturally, any improvement to this standardization procedure will increase the impact of SN Ia cosmology and any related survey.
-Using a more powerful statistical model, there are two outstanding issues with SN Ia cosmology we wish to address: 1) improving modeling SN Ia color variation to disentangle dust effects from intrinisic SN~Ia color variation, and 2) simultaneously modeling SN subtypes during fitting to better detect SN Ia false positives from erroneously detected core collapse supernovae (CC SNe) and peculiar SN Ia subtypes without the use of spectra.
+In particular, an order of magnitude increase in observe type Ia supernovae (SNe~Ia) will improve these objects' ability to constrain fundamental cosmological constants such as the Hubble constant and the dark energy equation of state \citep{Perlmutter1999}.  SNe~Ia are standardizable ---~correlations between peak brightness and both color and explosion duration can be used to reduce the already low intrinsic scatter in peak brightness of these objects.  
+The source of color variation in SNe~Ia is not entirely established.  
+Indeed, the effects of foreground host galaxy dust simultaneously diminish a SN~Ia's peak brightness and redden its spectrum, but a dust-only model fails to account for all SN~Ia color variation.  
+Compounding this further is an established bias between SNe~Ia properties and the properties of its host galaxies that propagates through any SN~Ia standardization procedure \citep{Rigault2018,Sullivan2010}. 
+These host properties, such as stellar mass, stellar age, and star formation rate (SFR), also correlates with host galaxy dust, with recent studies finding certain host properties (SFR and age, specifically) in linear combination with host stellar mass better account for both the observed host bias and in accounting for said its during standardization \citep{Rigault2018,Rose2021}. 
+\cite{Brout2021} found that a more sophisticated dust model for SNe~Ia accounts for the host bias during standardization, though.
+As host properties apart from stellar mass are strongly correlated with host dust properties, a yet-performed exploration into the effects of differing host dust correction techniques on the measured host bias using differing stellar age and SFR tracers would bridge the knowledge gap between these two approaches. 
 
-\section{Proposed Project}
-This project will continue development of a model than me and Dr. Alex Kim of the Lawrence Berkeley National Lab have developed as part of a DOE Office of Science SCGSR Award. 
-This new hierarchical Bayesian model agnostically disentangles the color variation in SN~Ia populations due to dust effects from color varation arising from intrinsic differences in SN~Ia population itself.  
-Using the statistics coding suit Stan \citep{STAN}, a set of Gaussian process are fit to a set of phase nodes, which each Gaussian process tracing the time evolution of a specific wavelength node.
-This forms a mean template surface $\textbf{f}_0$ that traces the mean time and wavelength evolution of the SN~Ia sample that is scaled by a grey offset term $\exp(\chi_{\text{sn}})$.
-Each Gaussian process is adjusted per-SN~Ia via a set of time-independent multiplicative color law vectors $\vec{L}_i$, with each the vectors $\vec{L}_i$'s contribution being determined by latent color parameters $c_{i,\text{sn}}$ fit for each SN~Ia. 
-Time and wavelength variation can accounted for by a warping matrix $\textbf{M}_i$ that adjusts the phase nodes and wavelength nodes simultaneously for each SN~Ia via some latent parameter $s_{i,\text{sn}}$.
-For example, a two color law model that accounts for stretch variation in SNe~Ia would be $\log[\textbf{f}_{\text{sn}}(\chi_{\text{sn}}, s_{1,\text{sn}}, c_{1,\text{sn}}, c_{2,\text{sn}})] = \log(\textbf{f}_0) + \chi_{\text{sn}} + s_{1,\text{sn}}\textbf{M}_1 + c_{1,\text{sn}}\vec{L}_1 + c_{2,\text{sn}}\vec{L}_2$
+Our proposed project is a targeted continuation of recent analysis into the influence of observation and fitting techniques into SN~Ia host bias measurements \citep{Hand2021}.
+Using Integral Field Spectrum (IFS) observations and derived dat products from both the PISCO \citep{Galbany2018} and AMUSING\footnote{\url{https://amusing-muse.github.io/publications/}} SN~Ia host samples, our group will compare specific SFR (sSFR) calculations from global and resolved H$\alpha$; UV sSFR estimates from available surveys will also be used.
+We will consider sSFR estimates both corrected and uncorrected for host galaxy dust attenuation.
+sSFR is a natural host property to explore given its intrinsic nature, differing observables that trace differing epochs of star formation, and by its definition being a linear combination of extrinsic host properties: $\log(sSFR) = \log(SFR) - \log(Mass)$.
+Along with the commonly used H$\alpha$/H$\beta$ ratio correction, more sophisticated dust attenuation models will be implemented and compared\citep{Salim2018,Narayanan2018}.  
+We will make use of a hierarchical Bayesian approach implemented with the statistics package Stan\footnote{\url{https://mc-stan.org/}} to appropriately account for covariance in physical and latent parameters inherent to such an analysis.
+The goals of this project are to see if dust attenuation modeling influences the measured host bias in a statistically consistent manner and to explore the relationship between dust attenuation and star formation epoch within the context of SN~Ia standardization.
+\section{Personnel}
+We request support for one graduate student and one undergraduate student.
+The rigor of this project varies from from basic data manipulation and plotting with Python, to more advanced topics such as statistical modeling and photometry, making it a natural endeavor to include an undergraduate researcher.
+This funding will provide support for the graduate student in August of 2021 and May of 2022, filling current gaps in support between summers and the academic school year thus enabling a smooth transition into this project
 
-Our first model improvement will focus on improving the robustness of a two color law model (namely, $c_1\vec{L}_1 + c_2\vec{L}_2$) to include heavily reddened supernovae in our training sample. 
-The second improvement will be adding a Gaussian mixture model, with each component of the mixture model being a family of a multiplicative color laws and warping matrices. 
-The massive statistics increase that LSST will yield will allow not only for stronger constraints on the color laws of SNe~Ia used in cosmology, but to simultaneously fit for CC~SNe and peculiar SNe~Ia as well.
 \section{Impact}
 
 
