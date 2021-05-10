@@ -9,6 +9,13 @@
 {Brout}, D., \& {Scolnic}, D. 2021, \apj, 909, 26,
   \dodoi{10.3847/1538-4357/abd69b}
 
+\bibitem[{{Galbany} {et~al.}(2016){Galbany}, {Anderson}, {Rosales-Ortega},
+  {Kuncarayakti}, {Kr{\"u}hler}, {S{\'a}nchez}, {Falc{\'o}n-Barroso},
+  {P{\'e}rez}, {Maureira}, {Hamuy}, {Gonz{\'a}lez-Gait{\'a}n}, {F{\"o}rster},
+  \& {Moral}}]{Galbany2016a}
+{Galbany}, L., {Anderson}, J.~P., {Rosales-Ortega}, F.~F., {et~al.} 2016,
+  \mnras, 455, 4087, \dodoi{10.1093/mnras/stv2620}
+
 \bibitem[{{Galbany} {et~al.}(2018){Galbany}, {Anderson}, {S{\'a}nchez},
   {Kuncarayakti}, {Pedraz}, {Gonz{\'a}lez-Gait{\'a}n}, {Stanishev},
   {Dom{\'\i}nguez}, {Moreno-Raya}, {Wood-Vasey}, {Mour{\~a}o}, {Ponder},
@@ -27,15 +34,6 @@
   {Johnson}, \& {Popping}}]{Narayanan2018}
 {Narayanan}, D., {Conroy}, C., {Dav{\'e}}, R., {Johnson}, B.~D., \& {Popping},
   G. 2018, \apj, 869, 70, \dodoi{10.3847/1538-4357/aaed25}
-
-\bibitem[{{Perlmutter} {et~al.}(1999){Perlmutter}, {Aldering}, {Goldhaber},
-  {Knop}, {Nugent}, {Castro}, {Deustua}, {Fabbro}, {Goobar}, {Groom}, {Hook},
-  {Kim}, {Kim}, {Lee}, {Nunes}, {Pain}, {Pennypacker}, {Quimby}, {Lidman},
-  {Ellis}, {Irwin}, {McMahon}, {Ruiz-Lapuente}, {Walton}, {Schaefer}, {Boyle},
-  {Filippenko}, {Matheson}, {Fruchter}, {Panagia}, {Newberg}, {Couch}, \&
-  {Project}}]{Perlmutter1999}
-{Perlmutter}, S., {Aldering}, G., {Goldhaber}, G., {et~al.} 1999, \apj, 517,
-  565, \dodoi{10.1086/307221}
 
 \bibitem[{Rigault {et~al.}(2020)}]{Rigault2018}
 Rigault, M., {et~al.} 2020, Astron. Astrophys., 644, A176,

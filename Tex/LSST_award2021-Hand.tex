@@ -16,13 +16,25 @@
 \begin{document}
 \title{Dust Attenuation and Type Ia Supernova Host Bias}
 
-\author{Jared Hand}
-\affiliation{Department of Physics and Astronomy, University of Pittsburgh \vspace{-0.4in}}
+\correspondingauthor{Michael Wood-Vasey}
+\email{wmwv@pitt.edu}
+
 \author{Michael Wood-Vasey}
-\affiliation{Department of Physics and Astronomy, University of Pittsburgh \vspace{-0.4in}}
-\section{Personnel}
-We request support for graduate student Jared Hand and one undergraduate student under Professor Michael Wood-Vasey at the University of Pittsburgh for our project exploring the relationship between host galaxy dust effects and the measurement of the type Ia supernova (SN~Ia) host bias.
-%The rigor of our proposed project will vary from introductory to complex, providing an appropriate introduction to LSST science for the undergraduate researcher.
+\affiliation{Department of Physics and Astronomy, University of Pittsburgh }
+
+\author{Jared Hand}
+\affiliation{Department of Physics and Astronomy, University of Pittsburgh }
+
+\begin{abstract}
+    Building on our research group's past work on the type Ia supernova (SN~Ia) host bias, we wish to supplement graduate student Jared Hand and fund an undergraduate in a project studying dust attenuation correction techniques influence on SN~Ia host bias corrections and its connection to SN~Ia color variation.
+    \begin{itemize}
+        \item \$10,000 requested
+    \end{itemize}
+\end{abstract}
+
+
+\section{Personnel and Proposed Project}
+We request support for graduate student Jared Hand and one undergraduate student under Professor Michael Wood-Vasey at the University of Pittsburgh for our project exploring the relationship between host galaxy dust effects and the measurement of the SN~Ia host bias.
 Graduate student Hand, using this support to cover a gap in funding, will build the proposed project's foundations:
 \begin{itemize}
     \item Developing a proper hierarchical Bayesian model with the statistics programming language Stan\footnote{\url{https://mc-stan.
@@ -32,30 +44,29 @@ Graduate student Hand, using this support to cover a gap in funding, will build 
 \end{itemize}
 With Professor Wood-Vasey in support, graduate student Hand will work closely with the undergraduate in developing the following skills:
 \begin{itemize}
-    \item Scalable, project-oriented, and data-driven programming techniques using Python and github.
+    \item Scalable, data-driven programming techniques using Python and github.
     \item Bayesian statistics using a hands-on approach with astronomical data. 
     \item Introductory relational database querying using a local project SQLite database.
 \end{itemize}
 Data-driven analysis skills will be developed through manipulation of large SN~Ia data sets presented within the context of LSST's science goals.
-Both mentors will prepare the undergraduate's presenting of their work to DESC or PCW, providing the undergraduate with practice in science communication and giving exposure to the LSST science community.
-Graduate student Hand similarly will present project results to DESC or PCW.
+Graduate student Hand and the undergraduate will both present project results and their respective contributions to DESC and PCW, providing practice in science communication and exposure to the LSST science community.
+This project builds upon graduate student Hand's prior research and will contribute towards their final dissertation.
 
-\section{Proposed Project}
-The Vera C. Rubin Observatory will provide an order of magnitude increase in observed SNe~Ia, dramatically improving these objects' ability to constrain fundamental cosmological constants such as the Hubble constant and the dark energy equation of state \citep{Perlmutter1999}.  
-SNe~Ia are standardizable ---~correlations between peak brightness and both color and SN duration are used to reduce the low intrinsic scatter in peak brightness of these objects.  
-Though the effects of foreground host galaxy dust simultaneously diminish a SN~Ia's peak brightness and redden its spectrum, this dust-only model does not account for all SN~Ia color variation \citep{Brout2021}.  
-There is also an established bias between SN~Ia properties and the properties of its host galaxies propagate through SN~Ia standardization procedure, the most studied being the mass step \citep{Sullivan2010}. 
-Similarly biased host properties such as stellar age and star formation rate (SFR) are strongly degenerate with host dust properties, with recent studies finding in linear combination of stellar age or SFR with host stellar mass better accounting for both the observed host bias and its propagation through standardization \citep{Rigault2018,Rose2021}. 
-\cite{Brout2021} has also found that a more sophisticated dust model for SNe~Ia removes the host bias during standardization.
-An exploration into the effects of host dust correction on the measured host bias would bridge a gap in knowledge between SN~Ia color variation due to dust and the effects of dust on the measured host bias. 
-Such a project would specifically determine if dust attenuation modeling influences or removes the host bias while exploring the relationship between dust attenuation and star formation epoch within the context of SN~Ia standardization.
+SN~Ia peak brightnesses are standardized using correlations between peak brightness and both color and SN duration to reduce the naturally low scatter in peak brightness.
+There is also an established bias between SN~Ia properties and the properties of its host galaxies that propagates through SN~Ia standardization procedure, resulting in the well-studied mass step \citep{Sullivan2010}. 
+Studies have found that linear combinations of stellar age or star formation rate (SFR) with stellar mass better account for both the observed host bias and its propagation through standardization \citep{Rigault2018,Rose2021}.
+Stellar age and SFR are strongly degenerate with host dust properties, though, and \cite{Brout2021} found that although SN~Ia color is not entirely explained by a dust-only model, a more sophisticated standardization model incorporating host dust effects accounts for the mass step.
+We propose exploring the effects of host dust correction techniques on the measured host bias to help bridge a gap in knowledge between SN~Ia color variation from dust and the effects of dust on the host bias.
 
-Our project is a continuation of recent the analysis from the Wood-Vasey group into the influence of observation and fitting techniques into SN~Ia host bias measurements \citep{Hand2021}.
-Using Integral Field Spectrum (IFS) observations and data products from both the PISCO \citep{Galbany2018} and AMUSING\footnote{\url{https://amusing-muse.github.io/publications/}} SN~Ia host samples alongside overlapping ultraviolet (UV) surveys, we will compare specific SFR (sSFR) calculations from global and resolved H$\alpha$ flux and UV photometry.
-Said sSFR estimates will be calculated with and without host galaxy dust attenuation corrections.
+We took a first step on understanding the influence of observation and fitting techniques on SN~Ia host bias measurements in~\cite{Hand2021} using PISCO \citep{Galbany2018}.  
+This proposed project will triple our prior statistics by including AMUSING \citep{Galbany2016a} and instead will focus on host galaxy dust attenuation's effects on differing SFR tracers. 
+Using IFS observations and data products from both the PISCO and  SN~Ia host samples alongside overlapping UV surveys, we will compare specific SFR (sSFR) calculations from global and resolved H$\alpha$ flux and UV photometry with and without host galaxy dust various attenuation corrections.
 sSFR is a natural host property to explore given its intrinsic nature, differing observables that trace differing epochs of star formation, and by definition being a linear combination of host properties: $\log(sSFR) = \log(SFR) - \log(Mass)$.
-Along with the commonly used H$\alpha$/H$\beta$ ratio correction, more sophisticated dust attenuation models from~\cite{Salim2018} and~\cite{Narayanan2018} will be implemented and compared.  
-All this work will be performed within hierarchical Bayesian framework implemented with Stan to appropriately account for covariance in physical and latent parameters inherent to such an analysis.
+Along with the commonly used H$\alpha$/H$\beta$ ratio correction, we will implement and compare more sophisticated dust attenuation models from~\cite{Salim2018} and~\cite{Narayanan2018}.  
+A hierarchical Bayesian framework implemented with Stan will be used to study the effects of differing attenuation techniques on standardization.
+
+\section{Budget Narrative}
+We request \$5000 each in funding for graduate student Hand and an undergraduate to supplement their stipends.  We wish to disburse funds directly to our institution, which has an administrative fee.
 
 \bibliographystyle{aasjournal}
 \bibliography{main}

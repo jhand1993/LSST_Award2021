@@ -6,24 +6,24 @@ Database file #1: main.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 9 entries,
             3168 wiz_defined-function locations,
-            729 strings with 8068 characters,
-and the built_in function-call counts, 5058 in all, are:
-= -- 365
-> -- 488
+            729 strings with 7674 characters,
+and the built_in function-call counts, 4809 in all, are:
+= -- 366
+> -- 428
 < -- 2
-+ -- 162
-- -- 176
-* -- 506
-:= -- 960
++ -- 142
+- -- 156
+* -- 467
+:= -- 901
 add.period$ -- 10
 call.type$ -- 9
 change.case$ -- 51
 chr.to.int$ -- 9
 cite$ -- 9
 duplicate$ -- 153
-empty$ -- 256
-format.name$ -- 186
-if$ -- 989
+empty$ -- 257
+format.name$ -- 166
+if$ -- 952
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 9
@@ -33,9 +33,9 @@ pop$ -- 53
 preamble$ -- 1
 purify$ -- 51
 quote$ -- 0
-skip$ -- 137
+skip$ -- 138
 stack$ -- 0
-substring$ -- 183
+substring$ -- 186
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
