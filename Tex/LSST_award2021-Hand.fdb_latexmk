@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex LSST_award2021-Hand"] 1620680184 "LSST_award2021-Hand.aux" "LSST_award2021-Hand.bbl" "LSST_award2021-Hand" 1620680274
+["bibtex LSST_award2021-Hand"] 1620689308 "LSST_award2021-Hand.aux" "LSST_award2021-Hand.bbl" "LSST_award2021-Hand" 1620689309
   "/usr/local/texlive/2019/texmf-dist/bibtex/bst/aastex/aasjournal.bst" 1565209774 36130 1e2d4614828005814bd64e3c665b8e99 ""
-  "LSST_award2021-Hand.aux" 1620680273 2687 52f514a9e28e927bcef7040e45334cc1 "pdflatex"
+  "LSST_award2021-Hand.aux" 1620689309 2707 7ed2ec2d511b0749c6c80127bb56f9c4 "pdflatex"
   "main.bib" 1620674641 12897 95858265adbbe0eda712359bc566caf2 ""
   (generated)
   "LSST_award2021-Hand.blg"
   "LSST_award2021-Hand.bbl"
-["pdflatex"] 1620680272 "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.tex" "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.pdf" "LSST_award2021-Hand" 1620680274
-  "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.aux" 1620680273 2687 52f514a9e28e927bcef7040e45334cc1 ""
-  "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.tex" 1620680270 5737 e271fbf953c33776439f97a86475e658 ""
+["pdflatex"] 1620689308 "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.tex" "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.pdf" "LSST_award2021-Hand" 1620689309
+  "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.aux" 1620689309 2707 7ed2ec2d511b0749c6c80127bb56f9c4 ""
+  "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.tex" 1620689305 5728 3da6e1962f4cabc73c745d35fcad3e2e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr.tfm" 1136768653 2504 ba6584b616b92101c768b6c4ffb32dd0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -106,14 +106,14 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1568225533 4647627 8711725592bd950be4ea205516b104bb ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1568225578 4264881 d335ced116595374cacf153181a68d37 ""
   "/usr/local/texlive/2019/texmf.cnf" 1568225520 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "LSST_award2021-Hand.aux" 1620680273 2687 52f514a9e28e927bcef7040e45334cc1 "pdflatex"
-  "LSST_award2021-Hand.bbl" 1620680184 2891 4b678560051dbe5043c96c29baa40c6e "bibtex LSST_award2021-Hand"
-  "LSST_award2021-Hand.out" 1620680273 116 1eb998b4ca4dbd667c46118627424e32 "pdflatex"
-  "LSST_award2021-Hand.tex" 1620680270 5737 e271fbf953c33776439f97a86475e658 ""
+  "LSST_award2021-Hand.aux" 1620689309 2707 7ed2ec2d511b0749c6c80127bb56f9c4 "pdflatex"
+  "LSST_award2021-Hand.bbl" 1620689308 2891 4b678560051dbe5043c96c29baa40c6e "bibtex LSST_award2021-Hand"
+  "LSST_award2021-Hand.out" 1620689309 116 1eb998b4ca4dbd667c46118627424e32 "pdflatex"
+  "LSST_award2021-Hand.tex" 1620689305 5728 3da6e1962f4cabc73c745d35fcad3e2e ""
   (generated)
-  "LSST_award2021-Hand.aux"
-  "LSST_award2021-Hand.out"
   "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.log"
   "LSST_award2021-Hand.log"
   "LSST_award2021-Hand.pdf"
+  "LSST_award2021-Hand.out"
+  "LSST_award2021-Hand.aux"
   "/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.pdf"
