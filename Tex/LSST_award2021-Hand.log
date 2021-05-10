@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.11)  10 MAY 2021 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.11)  10 MAY 2021 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,31 +605,31 @@ Overfull \hbox (15.24416pt too wide) in paragraph at lines 30--30
  []
 
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (15.24416pt too wide) in paragraph at lines 53--53
+Overfull \hbox (15.24416pt too wide) in paragraph at lines 54--54
 [][]| [] [][][]| 
  []
 
-(/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.bbl) [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
+(/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.bbl) [2] [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
  (/Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
 Package rerunfilecheck Info: File `LSST_award2021-Hand.out' has not changed.
 (rerunfilecheck)             Checksum: 5BF638243C9B43C3463EC9268651100C;95.
  ) 
 Here is how much of TeX's memory you used:
- 11255 strings out of 492609
- 156475 string characters out of 6129048
+ 11256 strings out of 492609
+ 156481 string characters out of 6129048
  317017 words of memory out of 5000000
  15032 multiletter control sequences out of 15000+600000
  14131 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,7n,43p,530b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.pdf (2 pages, 118531 bytes).
+Output written on /Users/jaredhand/Documents/wmwv_research/LSST_Award2021/Tex/LSST_award2021-Hand.pdf (3 pages, 117367 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  103 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
+ 18 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
